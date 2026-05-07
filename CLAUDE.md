@@ -18,6 +18,10 @@ Each package has its own development commands, dependencies, and specific guidel
 
 All projects under `apps/` ship as bundled CLIs/binaries. Treat their runtime dependencies as bundled assets: list everything in each app's `devDependencies` (never `dependencies`) so the bundler owns the runtime payload.
 
+## Tooling
+
+Use `rtk` for verbose shell commands when practical, especially git, package managers, builds, tests, search, and directory listings.
+
 ## Development Commands
 
 **Testing and Quality:**
